@@ -1,0 +1,82 @@
+.cveStatusContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	background-color: #f9f9f9;
+	min-height: 100vh;
+}
+
+.cveCard {
+	width: 100%;
+	max-width: 400px;
+	background-color: #ffffff;
+	padding: 15px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	cursor: pointer;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cveCard:hover {
+	transform: scale(1.02);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.cveCard h4 {
+	margin: 0;
+	font-size: 1.2em;
+	color: #333;
+}
+
+.progressBarContainer {
+	width: 100%;
+	height: 10px;
+	background-color: #ddd;
+	border-radius: 5px;
+	margin: 10px 0;
+	overflow: hidden;
+}
+
+.progressBar {
+	height: 100%;
+	width: 0;
+	background-color: #4caf50;
+	transition: width 0.4s ease;
+}
+
+.progressBar.Running {
+	width: 50%;
+	background-color: #f0ad4e;
+}
+
+.progressBar.Finished {
+	width: 100%;
+	background-color: #4caf50;
+}
+
+.progressBar.Error {
+	width: 100%;
+	background-color: #d9534f;
+}
+
+.progressBar.Error {
+	width: 100%;
+	background-color: #d9534f;
+}
+
+.statusText {
+	font-size: 1em;
+	margin-top: 10px;
+}
+
+.statusText.crackFound {
+	color: green;
+	font-weight: bold;
+}
+
+.statusText.noCrack {
+	color: black;
+	font-weight: bold;
+}

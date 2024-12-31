@@ -1,0 +1,13 @@
+.main-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 400;
+	color: #333;
+}

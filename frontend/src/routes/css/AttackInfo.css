@@ -1,0 +1,67 @@
+.attackInfoContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	background-color: #f4f4f9;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	max-width: 900px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.attackMessage {
+	margin-bottom: 20px;
+	padding: 15px;
+	white-space: pre-wrap;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	width: 100%;
+	text-align: center;
+	font-size: 1.1em;
+	color: #333;
+}
+
+.infoSectionWrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	gap: 20px;
+	margin-top: 20px;
+	flex-wrap: wrap;
+}
+
+.requestSection,
+.responseSection {
+	flex: 1;
+	max-width: 100%;
+	padding: 15px;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.requestSection h4,
+.responseSection h4 {
+	color: #333;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+.codeBlock {
+	background-color: #f0f0f0;
+	padding: 10px;
+	border-radius: 6px;
+	overflow-x: auto;
+	font-family: monospace;
+	font-size: 0.9em;
+	line-height: 1.4;
+	white-space: pre-wrap;
+	max-width: 100%;
+	box-sizing: border-box;
+}

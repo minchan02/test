@@ -1,0 +1,17 @@
+.App {
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+.main-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh; /* 화면의 80% 높이를 차지 */
+	background-color: white; /* 기본 화면의 배경을 하얀색으로 설정 */
+}
+
+.main-content h1 {
+	font-size: 36px;
+	color: #333;
+}

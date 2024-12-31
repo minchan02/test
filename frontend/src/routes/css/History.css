@@ -1,0 +1,71 @@
+.historyContainer {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f4f4f9;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.historyContainer h3 {
+	text-align: center;
+	margin-bottom: 20px;
+	color: #333;
+}
+
+.timestampGroup {
+	margin-bottom: 20px;
+	padding: 15px;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+}
+
+.timestampGroup h4 {
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.cveList {
+	list-style-type: none;
+	padding: 0;
+}
+
+.cveItem {
+	padding: 10px;
+	margin-bottom: 5px;
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.cveItem:hover {
+	background-color: #e6f7ff;
+}
+
+.cveItem p {
+	margin: 5px 0;
+}
+
+.timestampHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.deleteButton {
+	background-color: #ff4d4d;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.deleteButton:hover {
+	background-color: #ff1a1a;
+}

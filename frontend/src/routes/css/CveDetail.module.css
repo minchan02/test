@@ -1,0 +1,113 @@
+.cveDetailContainer {
+	max-width: 800px;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: #f9f9f9;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	font-family: Arial, sans-serif;
+}
+
+.cveHeader {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.cveBackButton {
+	padding: 10px 15px;
+	background-color: #95a5a6;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+}
+
+.cveBackButton:hover {
+	background-color: #7f8c8d;
+}
+
+.cveInfo {
+	position: relative;
+	padding: 20px;
+	background-color: #ffffff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+
+.cveDetailSelectButton {
+	padding: 10px 15px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.cveDetailSelectButton.selected {
+	background-color: #6c757d;
+}
+
+.cveTitle {
+	font-size: 2em;
+	color: #333;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #007bff;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.cveSummary {
+	font-size: 1.1em;
+	margin-bottom: 20px;
+	color: #555;
+	line-height: 1.6;
+	text-align: center;
+}
+
+.cveBadges {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.badge {
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 20px;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #fff;
+	background-color: gray;
+}
+
+.badgeRisk {
+	background-color: #f28b82;
+	color: white;
+}
+
+.cveDescription {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 1em;
+	color: #666;
+	line-height: 1.6;
+	white-space: pre-wrap;
+}
+
+.codeBlock {
+	background-color: #282c34;
+	color: #ffffff;
+	padding: 15px;
+	border-radius: 8px;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 1.1em;
+	overflow-x: auto;
+	margin-top: 10px;
+	white-space: pre-wrap;
+	margin-bottom: 20px;
+}
